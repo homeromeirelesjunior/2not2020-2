@@ -136,9 +136,9 @@ for(let i = 0; i < estadosNe.length; i++) {
 
 */
 
-let consulta = estadosNe => {
-    for(let propriedade in estadosNe) {
-        console.log(`Propriedade: ${propriedade}; valor: ${estadosNe[propriedade]}`)
+let consulta = objeto => {
+    for(let propriedade in objeto) {
+        console.log(`Propriedade: ${propriedade}; valor: ${objeto[propriedade]}`)
     }
 }
 
