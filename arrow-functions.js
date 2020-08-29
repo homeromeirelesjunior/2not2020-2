@@ -68,7 +68,7 @@ let fatorial = function(n) {
 }
 
 // Arrow function com corpo maior que uma linha
-// - Não há como faer otimizações quando ao corpo da função
+// - Não há como fazer otimizações quando ao corpo da função
 let fatorial2 = n => {
     let res = 1
     for(let i=n; i > 1; i--) {
