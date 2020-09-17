@@ -36,7 +36,7 @@ function bubbleSort(vetor) {
 
 let nums = [58, 16, 33, 82, 4, 47, 25, 71, 96, 60, 41, 89]
 
-console.time('Teste 1')
+/* console.time('Teste 1')
 bubbleSort(nums)
 console.timeEnd('Teste 1')
 
@@ -62,5 +62,5 @@ console.timeEnd('Teste 1')
 
 console.log(nomes)
 
-console.log('----------------------------------------------------')
+console.log('----------------------------------------------------') */
 
