@@ -50,4 +50,5 @@ let memoria = process.memoryUsage().heapUsed / 1024 / 1024
 console.log(candidatos)
 console.log('Memória utilizada (MB):', memoria)
 
+// Categoria permuta
 // selectionSort tenta otimizar as trocas e faz um número menor de comparações, o bubbleSort troca muitas vezes e executa um número maior de comparações.
