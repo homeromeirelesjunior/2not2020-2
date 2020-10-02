@@ -38,7 +38,6 @@ function mergeSort(vetor, fnComp) {
         return vetRes.concat(sobra)
     }
 
-
     if(vetor.length > 1) {
         // Encontra o meio do vetor
         let meio = Math.floor(vetor.length / 2)
