@@ -38,8 +38,9 @@ console.log({passadas, comparacoes, trocas})
  */
 
  const candidatos = require('./dados/candidatos-2018')
+ const candidatos10 = candidatos.slice(0, 10)
  console.time('Teste candidatos')
- quickSort(candidatos, (a, b) => {
+ quickSort(candidatos10, (a, b) => {
     // Ordenação considerando primeiro NR_CANDIDATO e depois NM_CANDIDATO
     if(a.NR_CANDIDATO == b.NR_CANDIDATO) {
         if(a.NM_CANDIDATO > b.NM_CANDIDATO) return true
@@ -51,3 +52,4 @@ console.log({passadas, comparacoes, trocas})
  console.timeEnd('Teste candidatos')
  console.log('Memória usada (MB):', process.memoryUsage().heapUsed / 1024 /1024)
  console.log({passadas, comparacoes, trocas})
+ console.log(candidatos10)
